@@ -138,7 +138,7 @@ if we wrote this loop as:
 
 ~~~
 for x in basilisk.dat unicorn.dat
-do
+dosequentially 
     head -n 3 $x
 done
 ~~~
@@ -382,8 +382,8 @@ $ for datafile in NENE*[AB].txt; do echo $datafile; bash goostats $datafile stat
 
 > ## Beginning and End
 >
-> We can move to the beginning of a line in the shell by typing `Ctrl-A`
-> and to the end using `Ctrl-E`.
+> We can move to the beginning of a line in the shell by typing `Ctrl-a`
+> and to the end using `Ctrl-e`.
 {: .callout}
 
 When she runs her program now,
